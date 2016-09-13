@@ -1,0 +1,48 @@
+#description {
+	float:left;
+	width: 450px;
+}
+
+h1 {
+	text-align: center;
+	background-color: white;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+}
+
+#header{
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+}
+body 
+{
+	color: black;
+	background-image: url("slcback.jpg");
+}
+
+img {
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+	height: 300px;
+}
+
+#pic{
+	margin-left: 460px;
+	width: 450px;
+}
+
+.panel-body
+{
+	background-color: white;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+}
+
+.panel-default
+{
+	width: 1000px;
+}

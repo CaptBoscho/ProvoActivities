@@ -1,0 +1,32 @@
+h1 {
+	text-align: center;
+}
+
+.nav.navbar-nav > li {
+	position: relative;
+	right: 50%;
+}
+
+.nav.navbar-nav li {
+	text-align: left;
+}
+
+ .nav.navbar-nav {
+     float: left;
+ }
+ .nav.navbar-nav {
+     clear: left;
+     float: left;
+     margin: 0;
+     padding: 0;
+     position: relative;
+     left: 50%;
+     text-align: center;
+ }
+
+ body {
+ 	background-image: url("woodback.jpg");
+ 	background-position:center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ }

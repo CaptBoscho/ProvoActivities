@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>Provo Activities</title>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="stylish.css">
+</head>
+<body>
+<h1> Party Around Provo</h1>
+<nav class="navbar navbar-inverse" style="text-align: center;">
+  <div class="container-fluid" style="align:center;">
+    <ul class="nav navbar-nav" style="">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Provo<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="Provo/indoor.html">Indoor</a></li>
+          <li><a href="Provo/outdoor.html">Outdoor</a></li>
+          <li><a href="Provo/food.html">Food</a></li>
+        </ul>
+      </li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Salt Lake<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="SaltLake/indoor.html">Indoor</a></li>
+          <li><a href="SaltLake/outdoor.html">Outdoor</a></li>
+          <li><a href="SaltLake/food.html">Food</a></li>
+        </ul>
+      </li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Orem<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="Orem/indoor.html">Indoor</a></li>
+          <li><a href="Orem/outdoor.html">Outdoor</a></li>
+          <li><a href="Orem/food.html">Food</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+  <div class="w3-content w3-section" style="max-width:500px">
+    <img class="mySlides" src="Provo/BridalVeilFalls.jpg" style="width:100%">
+    <img class="mySlides" src="Provo/countrydance.jpg" style="width:100%">
+    <img class="mySlides" src="Provo/indiapalace.jpg" style="width:100%">
+    <img class="mySlides" src="Provo/kiwanis.jpg" style="width:100%">
+    <img class="mySlides" src="Provo/popsweet.jpg" style="width:100%">
+    <img class="mySlides" src="Provo/provo-library.jpg" style="width:100%">
+    <img class="mySlides" src="Provo/provocenterstreet.jpg" style="width:100%">
+    <img class="mySlides" src="Provo/rivertube.jpg" style="width:100%">
+    <img class="mySlides" src="Provo/roccos.jpg" style="width:100%">
+    <img class="mySlides" src="Provo/scoutfalls.jpg" style="width:100%">
+    <img class="mySlides" src="SaltLake/saltflats.jpg" style="width:100%">
+    <img class="mySlides" src="SaltLake/library.jpg" style="width:100%">
+    <img class="mySlides" src="SaltLake/citycreek.jpg" style="width:100%">
+    <img class="mySlides" src="SaltLake/temple.jpg" style="width:100%">
+  </div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>
